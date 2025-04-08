@@ -1,0 +1,29 @@
+
+
+
+html, body {
+    margin: 0;
+}
+
+.header {
+    font-family: "Sour Gummy";
+    font-size: 1.4em;
+    color: #fff;
+    background-color: rgb(225, 72, 55);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+}
+
+.logo {
+    height: 55px;
+    margin-right: 2%;
+}
