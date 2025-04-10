@@ -1,12 +1,23 @@
-export const Entry = () => (
+export const Entry = (props) => (
         <article className="journal-entry">
             <div className="entry-image-container">
-            <img className="journal-entry-image" src="salikuvatornio.jpg" alt="picture of a dimly lit gym" />
+            <img 
+            className="journal-entry-image" 
+            src={props.img.src} 
+            alt={props.img.alt}
+            />
             </div>
-            <div>
-                <img className="category" src="kettlebell.png" alt="kettlebell icon" />
-                <span>Tornio Bodycenter</span>
-                <a href="https://www.bckgsalit.fi/bodycenter-tornio/"></a> 
+            <div className="entry-info-container">
+                <img
+                    className="category"
+                    src={props.category.src} 
+                    alt={props.category.alt}
+                    />
+
+                <span className="location"> {props.location} </span>
+                <h3 className="date">{props.date}</h3>
+                <h4 className="entry-title"> {props.title} </h4>
+                <span className="text"> {props.text} </span> 
             </div>
         </article>
 )
