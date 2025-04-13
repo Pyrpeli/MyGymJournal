@@ -35,9 +35,9 @@ article.journal-entry {
 
 .entry-image-container {
     width: 20%;
-    height: 28%;
     overflow: hidden;
     flex-shrink: 0;
+    height: 30vh;
 }
 
 img.journal-entry-image {

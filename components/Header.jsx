@@ -1,4 +1,4 @@
-export const Header = () => (
+const Header = () => (
     <div className="header">
         <div className="headerbar">
         <img className="logo" src="dumbbell.png" alt="white dumbell logo" />
@@ -8,3 +8,5 @@ export const Header = () => (
     </div>
 
 )
+
+export default Header

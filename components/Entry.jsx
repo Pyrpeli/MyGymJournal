@@ -1,10 +1,10 @@
-export const Entry = (props) => (
+const Entry = (props) => (
         <article className="journal-entry">
             <div className="entry-image-container">
             <img 
             className="journal-entry-image" 
             src={props.img.src} 
-            alt={props.img.alt}
+            lt={props.img.alt}
             />
             </div>
             <div className="entry-info-container">
@@ -21,3 +21,5 @@ export const Entry = (props) => (
             </div>
         </article>
 )
+
+export default Entry
